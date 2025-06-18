@@ -45,4 +45,35 @@ let h = 5
 // console.log(Math.floor(g/h)) // 2, floor will return the largest integer less than or equal to the given number
 // console.log(Math.ceil(g/h)) // 3, ceil will return the smallest integer greater than or equal to the given number
 
+//! Logical operators
+//? there are three logical operator in javascript  &&, ||, !
+// console.log(12 > 10 && 10 < 29)
+// console.log(10 > 20 | 12)
 
+
+//! Unary operators
+//? unary operators are operators that operate on a single operand like --, ++, +, - 
+let i = 10
+let j = i++
+// console.log(j)
+// console.log(i) // output is 11
+let k = 20
+let l = ++k
+// console.log(l) // output is 21 bcz ++ operator will increment the value of k before assigning it to l
+let m = 30
+let n = --m
+// console.log(n)
+let o = 40
+let p = o--
+// console.log(p)
+let q = 11
+q = q++ + ++q
+// console.log(q)
+//? we can also use unary operators with boolean values
+let r = true
+// console.log(++r) 
+let t = 10
+// let s = ++(t++)
+// console.log(s)
+
+console.log(typeof Number) //* it return string bcz typeof operator always returns a string
