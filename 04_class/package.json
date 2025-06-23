@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "async-prompt": "^1.0.1"
+  },
+  "name": "04_class",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": ""
+}
